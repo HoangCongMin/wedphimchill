@@ -1,0 +1,76 @@
+.loginall {
+  background-image: url(../public/Failed-Price-Blog_20180410171151_0.jpeg);
+ position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginitem{
+   
+    width:300px;
+    
+    background-color: #000;
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 15px;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  
+    
+}
+
+.loginiteminput{
+    background-color: #000;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 2%;
+    margin-top: 5%;
+    border-bottom: 1px solid #ff8a00
+}
+
+.loginbutton{
+    padding-top: 1rem;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginbutton button{
+    color: #fff;
+    background-color: #ff8a00;
+    border: none;
+    width: 3rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.iconfacebook{
+    color: rgb(56, 88, 156);
+    
+}
+
+.loginapp{
+   font-size: 20px;
+   display: flex;
+   width: 40%;
+   margin: auto;
+   justify-content: space-between;
+   padding-top: 1.5rem;
+}
+
+.gitup{
+    color: #6e40c9;
+}

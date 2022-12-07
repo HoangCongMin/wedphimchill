@@ -1,0 +1,331 @@
+.chitietcontent {
+  width: 70%;
+  margin: auto;
+  max-width: 1500px;
+  position: relative;
+}
+
+.chitietcontentall {
+  background-color: #1a1a1a;
+}
+
+.imgchitet {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.chitietthongtin {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  justify-content: space-between;
+}
+
+.chitietthongtinimg {
+  width: 40%;
+  object-fit: cover;
+  border: 1px solid #fff;
+}
+
+.titleh1 {
+  width: 58%;
+}
+
+.titleh1 h1 {
+  margin: 0 0 8px;
+  color: #fff;
+  text-shadow: 0 2px 1px #333;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.titleh1 h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  font-weight: 700;
+  text-shadow: 0 2px 1px #333;
+  color: #fff;
+}
+
+.genres label {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 0 2px 1px #333;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.genres span {
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 2px 1px #333;
+}
+
+.time {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 0 2px 1px #333;
+}
+
+.time span {
+  color: #fff;
+}
+
+.breadcrumb {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-color: #252525;
+  list-style: none;
+  color: #ff9601;
+  align-items: center;
+  max-width: 1500px;
+}
+
+.breadcrumb p{
+  margin: 0;
+}
+
+.breadcrumbitem {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.breadcrumbitem svg {
+  font-size: 16px;
+  padding-top: 1%;
+}
+
+/* revewiall */
+
+.revewialltotal {
+  width: 70%;
+  margin: auto;
+  max-width: 1500px;
+  padding-top: 1.5rem;
+  background-color: #252525;
+  padding-bottom: 1rem;
+}
+
+.revewiall {
+  width: 97%;
+  margin: auto;
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.revewiall ul p {
+  color: #828282;
+  font-size: 14px;
+}
+
+.revewiall ul p label {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.revewiall ul p span {
+  padding-left: 1%;
+}
+
+.revewiall ul {
+  padding: 0;
+  width: 30%;
+}
+
+.votestart {
+  color: #ff9601;
+  align-items: center;
+  display: flex;
+}
+
+.votestart svg {
+  color: #ff9601;
+}
+
+.votestart span {
+  margin: 0;
+  color: #ff9601 !important;
+}
+
+.votestartitem {
+  align-items: center;
+  display: flex;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.contentblock {
+  width: 97%;
+  margin: auto;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.titleovervewi {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #ff9601;
+}
+
+.contentvewi {
+  color: #828282;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+.tagname {
+  width: 97%;
+  margin: auto;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.tagname h3 a {
+  padding: 0.4em 0.6em;
+  line-height: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: #778187;
+  margin: 0;
+  box-shadow: 0 3px 0 rgb(0 0 0 / 20%);
+  background: #353535;
+}
+
+.tagname h3 a:hover {
+  background: #ff9601;
+  box-shadow: 0 3px 0 #ab6400;
+  color: #fff;
+}
+
+/* Recommendationsall */
+
+.Recommendationsall {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.Recommendationsalltow {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.Recommendations {
+  width: 97%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.Recommendations h1 {
+  color: #ff9601;
+  margin: 0;
+}
+
+.Popularitem {
+  width: 70% !important;
+  margin: auto !important;
+}
+
+.trailermovie {
+  background-color: #5bc0de;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 85px;
+  margin-top: 3%;
+  opacity: 1;
+}
+
+.trailermovie svg {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+
+.trailermovie:hover {
+  background-color: #31b0d5;
+}
+
+@media(max-width:1100px){
+  .breadcrumb{
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .chitietthongtin{
+    width: 100%;
+  }
+
+  .chitietthongtinimg{
+    display: none;
+  }
+
+  .titleh1{
+    width: 100%;
+  }
+
+  .titleh1 h1{
+    font-size: 20px;
+  }
+  .titleh1 h2{
+    font-size: 13px;
+  }
+
+  .genres label{
+    font-size: 13px;
+  }
+
+  .revewiall{
+    flex-wrap: wrap;
+  }
+  
+  .revewiall ul{
+    width: 100%;
+  }
+
+  .chitietcontent{
+    width: 90%;
+    margin: auto;
+  }
+
+  .revewialltotal{
+    width: 90%;
+    margin: auto;
+  }
+  .Recommendationsall{
+    width: 90%;
+    margin: auto;
+  }
+  .Recommendationsalltow{
+    width: 90%;
+    margin: auto;
+  }
+}
+

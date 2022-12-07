@@ -1,0 +1,32 @@
+.Footerwapper{
+    width: 100%;
+    background-color: #000;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.Logo{
+    width: 80%;
+}
+
+.Footter{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 1280px){
+    .Logo{
+        display: none;
+      }
+}
+
+@media(max-width: 800px){
+  .Footter{
+    display: block;
+  }
+  
+}

@@ -1,0 +1,25 @@
+.FootterItemwarpper p{
+    margin: 0 0 5px;
+    font-weight: 700;
+    color: #dcdcdc;
+}
+
+.FootterItemwarpper ul{
+    list-style: none;
+    padding: 0;
+}
+
+.FootterItemwarpper{
+    width: 16.66%;
+}
+
+.FootterItemwarpper ul li a{
+    color: #666;
+    line-height: 2em;
+}
+
+@media(max-width: 800px){
+    .FootterItemwarpper{
+        width: 100%;
+    }
+  }
