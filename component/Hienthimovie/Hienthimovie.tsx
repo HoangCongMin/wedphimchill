@@ -25,6 +25,7 @@ function Hienthimovie({
   const [origincountry, setOrigincountry] = useState([]);
   const [date, setDate] = useState([]);
 
+
   const total = movieValue.length ? movieValue : movie;
 
   const [loggedInUser, _error] = useAuthState(auth);
@@ -134,6 +135,8 @@ function Hienthimovie({
     );
   }
 
+  
+
   return (
     <div className={Styles.Hienthimoviewrapperall}>
       <div className={Styles.filterall}>
@@ -206,6 +209,7 @@ function Hienthimovie({
                 </p>
               </div>
               <div className={Styles.titlespanicon}>
+                
                 <BiDotsHorizontalRounded></BiDotsHorizontalRounded>
                 <div className={Styles.titlespaniconitem}>
                   <AiFillHeart

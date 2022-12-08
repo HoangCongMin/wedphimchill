@@ -207,6 +207,9 @@
   display: none;
 }
 
+
+
+
 .titlespanicon:hover .titlespaniconitem {
   display: flex;
   flex-direction: column;

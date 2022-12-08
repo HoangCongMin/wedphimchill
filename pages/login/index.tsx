@@ -22,20 +22,31 @@ import { FcGoogle } from "react-icons/fc";
 import { GrFacebookOption } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
 
+import {providerfacebook} from'../../Firebase'
+
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const auth = getAuth(app);
-
   const [sendSignInLinkToEmail, _user, _error] = useSendSignInLinkToEmail(auth);
-
   const [signInWithGoogle] = useSignInWithGoogle(auth);
-
   const [signInWithFacebook] = useSignInWithFacebook(auth);
   const [signInWithGithub] = useSignInWithGithub(auth);
 
+
+
   const logingitup = () => {
     signInWithGithub();
+  };
+  
+  const loginfacebook = () => {
+    signInWithPopup(auth,providerfacebook)
+    .then((re)=>{
+      console.log(re)
+    })
+    .catch((err)=>{
+       console.log(err.message)
+    })
   };
 
   const loginall = () => {
@@ -46,10 +57,6 @@ function Login() {
 
   const logingogle = () => {
     signInWithGoogle();
-  };
-
-  const loginfacebook = () => {
-    signInWithFacebook();
   };
 
   const signup = () => {
@@ -78,8 +85,6 @@ function Login() {
         // const errorMessage = error.message;
       });
   };
-
-  
 
   return (
     <div className={styles.loginall}>

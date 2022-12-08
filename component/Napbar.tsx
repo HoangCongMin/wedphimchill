@@ -25,7 +25,9 @@ function Napbarmenu() {
       <div className={styles.napbarallbackground}>
         <div className={styles.napmenuall}>
           <div className={styles.napbarlogo}>
-            <Image src="/logo.png" width={171} alt="logo" height="40" />
+            <Link href="/PhimMoi">
+              <Image src="/logo.png" width={171} alt="logo" height="40" />
+            </Link>
           </div>
 
           <ul className={styles.napmenu}>
@@ -76,10 +78,9 @@ function Napbarmenu() {
           <input type="checkbox" className={styles.inputcheck} id="navinput" />
           <label htmlFor="navinput" className={styles.overlay}></label>
           <div className={styles.napmenumobile}>
-          <label htmlFor="navinput" className={styles.close}>
-            <FaTimes></FaTimes>
-
-          </label>
+            <label htmlFor="navinput" className={styles.close}>
+              <FaTimes></FaTimes>
+            </label>
 
             <ul>
               <li>
