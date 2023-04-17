@@ -67,6 +67,7 @@ function PhimMoi() {
 
   return (
     <Layout>
+      <h1>okkk</h1>
       <Slider></Slider>
       <Hienthiphim
         type={"chi-tiet"}
