@@ -6,6 +6,9 @@ import { auth, db } from "../Firebase";
 import { useEffect } from "react";
 import { serverTimestamp, setDoc, doc } from "firebase/firestore";
 
+import Head from "next/head";
+import { style } from "@mui/system";
+
 export default function App({ Component, pageProps }: AppProps) {
   const [loggedInUser, _error] = useAuthState(auth);
 
@@ -24,6 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   };
 
+  console.log('aaa')
   useEffect(() => {
     if (loggedInUser) {
       setuserid();
@@ -33,5 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   if(!loggedInUser)return<Login></Login>
 
-  return <Component {...pageProps} />;
+
+  return <Component {...pageProps} />
+
 }
