@@ -15,10 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/PhimMoi": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/PhimMoi.js"
+    ],
+    "/Trailer": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Trailer.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
